@@ -90,27 +90,28 @@ public class InputManager : MonoBehaviour {
         if (MidiJack.MidiMaster.GetKeyDown(0, 48) || Input.GetKeyDown(KeyCode.A))
         {
             audioC.Play();
-            print("note played");
+            print("C note played");
         }
 
         if (MidiJack.MidiMaster.GetKeyUp(0, 48) || Input.GetKeyUp(KeyCode.A))
         {
             audioC.Stop();
-            print("note played");
+            print("C note stopped");
         }
 
         //C# note
         if (MidiJack.MidiMaster.GetKeyDown(0, 49) || Input.GetKeyDown(KeyCode.W))
         {
             audioCSharp.Play();
-            print("note played");
+            print("C# note played");
         }
 
         //D note
         if (MidiJack.MidiMaster.GetKeyDown(0, 50) || Input.GetKeyDown(KeyCode.S))
         {
-            audioDSharp.Play();
             print("note played");
+
+            audioDSharp.Play();
         }
 
         //D# note
