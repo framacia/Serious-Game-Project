@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1952327639843594}
+  m_IsPrefabAsset: 1
+--- !u!1 &1952327639843594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4863903795401384}
+  - component: {fileID: 114846410307889964}
+  m_Layer: 0
+  m_Name: MIDISound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4863903795401384
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1952327639843594}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.41844726, y: -0.059520535, z: 0.01380068}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114846410307889964
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1952327639843594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34f0f6c3d45b6294d8dee926f0317c92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipA: {fileID: 8300000, guid: b10941bda469ef84ab51309e73dc8cd1, type: 3}
+  clipASharp: {fileID: 8300000, guid: b5d000640a0e4be408c789a27c39cd00, type: 3}
+  clipB: {fileID: 8300000, guid: f9d1f67ac48658a4193801c234ff30a5, type: 3}
+  clipC: {fileID: 8300000, guid: a5b233cf1da45ba4e9ba1495014a0525, type: 3}
+  clipCSharp: {fileID: 8300000, guid: f816a9749088121439219d5fef4ce1f9, type: 3}
+  clipD: {fileID: 8300000, guid: 36b48f2c8f310e14d9739ec23377e6e4, type: 3}
+  clipDSharp: {fileID: 8300000, guid: 1e9385d7d6918de4d8c670c2d3ef3e31, type: 3}
+  clipE: {fileID: 8300000, guid: 91e35825e33c6b841bc33ac539ab7f8f, type: 3}
+  clipF: {fileID: 8300000, guid: 2fc7c70dc2454d44abed9e964b618422, type: 3}
+  clipFSharp: {fileID: 8300000, guid: c2d0a6b6ae0b8a64488777a70808ed99, type: 3}
+  clipG: {fileID: 8300000, guid: d30557220932a4947a77b90c1c0a547c, type: 3}
+  clipGSharp: {fileID: 8300000, guid: 4c8ea2d38a694e741bd01d2ed736c7a5, type: 3}

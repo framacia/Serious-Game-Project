@@ -100,77 +100,77 @@ public class InputManager : MonoBehaviour {
         }
 
         //C# note
-        if (MidiJack.MidiMaster.GetKeyDown(0, 49))
+        if (MidiJack.MidiMaster.GetKeyDown(0, 49) || Input.GetKeyDown(KeyCode.W))
         {
             audioCSharp.Play();
             print("note played");
         }
 
         //D note
-        if (MidiJack.MidiMaster.GetKeyDown(0, 50))
+        if (MidiJack.MidiMaster.GetKeyDown(0, 50) || Input.GetKeyDown(KeyCode.S))
         {
             audioDSharp.Play();
             print("note played");
         }
 
         //D# note
-        if (MidiJack.MidiMaster.GetKeyDown(0, 51))
+        if (MidiJack.MidiMaster.GetKeyDown(0, 51) || Input.GetKeyDown(KeyCode.E))
         {
             audioDSharp.Play();
             print("note played");
         }
 
         //E note
-        if (MidiJack.MidiMaster.GetKeyDown(0, 52))
+        if (MidiJack.MidiMaster.GetKeyDown(0, 52) || Input.GetKeyDown(KeyCode.D))
         {
             audioE.Play();
             print("note played");
         }
 
         //F note
-        if (MidiJack.MidiMaster.GetKeyDown(0, 53))
+        if (MidiJack.MidiMaster.GetKeyDown(0, 53) || Input.GetKeyDown(KeyCode.F))
         {
             audioF.Play();
             print("note played");
         }
 
         //F# note
-        if (MidiJack.MidiMaster.GetKeyDown(0, 54))
+        if (MidiJack.MidiMaster.GetKeyDown(0, 54) || Input.GetKeyDown(KeyCode.T))
         {
             audioFSharp.Play();
             print("note played");
         }
 
         //G note
-        if (MidiJack.MidiMaster.GetKeyDown(0, 55))
+        if (MidiJack.MidiMaster.GetKeyDown(0, 55) || Input.GetKeyDown(KeyCode.G))
         {
             audioG.Play();
             print("note played");
         }
 
         //G# note
-        if (MidiJack.MidiMaster.GetKeyDown(0, 56))
+        if (MidiJack.MidiMaster.GetKeyDown(0, 56) || Input.GetKeyDown(KeyCode.Y))
         {
             audioGSharp.Play();
             print("note played");
         }
 
         //A note
-        if (MidiJack.MidiMaster.GetKeyDown(0, 57))
+        if (MidiJack.MidiMaster.GetKeyDown(0, 57) || Input.GetKeyDown(KeyCode.H))
         {
             audioA.Play();
             print("note played");
         }
 
         //A# note
-        if (MidiJack.MidiMaster.GetKeyDown(0, 58))
+        if (MidiJack.MidiMaster.GetKeyDown(0, 58) || Input.GetKeyDown(KeyCode.U))
         {
             audioASharp.Play();
             print("note played");
         }
 
         //B note
-        if (MidiJack.MidiMaster.GetKeyDown(0, 59))
+        if (MidiJack.MidiMaster.GetKeyDown(0, 59) || Input.GetKeyDown(KeyCode.J))
         {
             audioB.Play();
             print("note played");
